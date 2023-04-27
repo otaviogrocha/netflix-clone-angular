@@ -7,6 +7,7 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { FullBannerComponent } from './components/full-banner/full-banner.component';
 import { ListTitlesComponent } from './components/list-titles/list-titles.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { TitlesComponent } from './components/titles/titles.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { FooterComponent } from './components/footer/footer.component';
     NavBarComponent,
     FullBannerComponent,
     ListTitlesComponent,
-    FooterComponent
+    FooterComponent,
+    TitlesComponent
   ],
   imports: [
     BrowserModule,
