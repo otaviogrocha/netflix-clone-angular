@@ -1,13 +1,11 @@
 <div class="p-3 list-titles">
 
-    <h2 class="h4">Adicionados recentemente</h2>
+  <h2 class="h4">{{ title }}</h2>
 
-    <div class="d-flex flex-nowrap overflow-hidden">
+  <div class="d-flex flex-nowrap overflow-hidden">
 
-      <app-titles></app-titles>
-      <app-titles></app-titles>
-      <app-titles></app-titles>
-
-    </div>
+    <app-titles *ngFor ="let movies of list" [title] = "movies"></app-titles>
 
   </div>
+
+</div>

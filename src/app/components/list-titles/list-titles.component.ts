@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-list-titles',
@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./list-titles.component.css']
 })
 export class ListTitlesComponent {
+
+  @Input() title: string = '';
+  @Input() list: any[] = [];
+
+  constructor(){}
+
+  ngOnInit(){
+
+  }
 
 }
