@@ -6,10 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-
+  
   name: string = 'Otávio Rocha';
-
-  menuOpened = false;
 
   listTitles = [{
     trailer: "assets/videos/trailer_guardioes_da_galaxia_1080p.mp4",
@@ -43,14 +41,6 @@ export class AppComponent {
     age: 18,
     parts: 2,
     categories: ['Épico', 'Filme de fantasia', 'Viagem no espaço']
-  }]
-
-
-  setMenuState(state: boolean) {
-    this.menuOpened = state;
-  }
-
-  closeMenu(){
-    this.menuOpened = false;
-  }
+  }  
+]
 }
